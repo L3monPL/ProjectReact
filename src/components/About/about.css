@@ -1,0 +1,78 @@
+.about_container{
+    display: grid;
+    grid-template-columns:  50% 50%;
+    gap: 0%;
+    margin-top: 4rem;
+}
+.imageCol{
+    /* width: 100%; */
+    /* aspect-ratio: 1/1; */
+    border-radius: 40px;
+    /* display: grid;
+    place-items: center; */
+}
+.imgContainer
+{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.contentCol{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 20%;
+}
+.contentCol p{
+    margin: 2rem 0 2rem;
+}
+.imageBg{
+    height: 21rem;
+    aspect-ratio: 1/1;
+    background-color: #3C4880;
+    border-radius: 40px;
+}
+.imageCol img{
+    border-radius: 40px;
+    width: 21rem;
+    transform: rotate(8deg);
+    transition: 0.6s;
+}
+.imageCol img:hover{
+    transform: rotate(0);
+}
+.about_header{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.about_card{
+    background: #3C4880;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.about_card h5{
+    color: #5dd9f8;
+}
+.about_card small{
+    color: rgb(170, 170, 170);
+}
+.about_icon{
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
+}
+.about_header h3{
+    color: #5dd9f8;
+}
+.about_header h2{
+    color: #fff;
+}
