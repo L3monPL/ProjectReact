@@ -4,6 +4,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {AiOutlineBook} from 'react-icons/ai'
 import {MdContactMail} from 'react-icons/md'
+import {RiSlideshowFill} from 'react-icons/ri'
 
 const Nav = () => {
   const [activeNav, setNav] = useState('#')
@@ -12,6 +13,7 @@ const Nav = () => {
       <a href="#" onClick={() => setNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
       <a href="#about" onClick={() => setNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#skills" onClick={() => setNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><AiOutlineBook/></a>
+      <a href="#portfolio" onClick={() => setNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiSlideshowFill/></a>
       <a href="#contact" onClick={() => setNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><MdContactMail/></a>
     </nav>
   )

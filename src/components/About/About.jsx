@@ -21,7 +21,6 @@ function About() {
             </div>
           </div>
         </div>
-        
 
         <div className="contentCol">
           <div className="about_cards">
