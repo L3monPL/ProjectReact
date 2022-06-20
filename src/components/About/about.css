@@ -53,8 +53,12 @@
     gap: 1.5rem;
 }
 .contentCol p{
-    color: #000;
+    color: #fff;
     font-weight: 500;
+    background: #3C4880;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
 }
 .about_card{
     background: #3C4880;
@@ -79,4 +83,35 @@
 }
 .about_header h2{
     color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+.about_container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about_cards{
+    display: flex;
+    flex-direction: column;
+}
+.contentCol{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about_card{
+    padding: 3rem;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.imgContainer{
+    margin-top: 4rem;
+}
+.contentCol p{
+    background: #3C4880;
+    padding: 2rem;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 1.5rem;
+    color: #fff;
+}
 }

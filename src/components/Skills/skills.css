@@ -45,3 +45,15 @@
 .text-light{
     color: rgb(170, 170, 170);
 }
+
+@media only screen and (max-width: 600px){
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.skills_container > div{
+    padding: 2rem;
+}
+}

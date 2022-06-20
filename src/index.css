@@ -8,9 +8,13 @@
     list-style: none;
     text-decoration: none;
 }
-html{
+html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     scroll-behavior: smooth;
     overflow: hidden;
+    overflow-x: hidden; 
 }
 body{
     font-family: "Poppins", sans-serif;
@@ -24,4 +28,15 @@ section{
 .container_0{
     margin: 0 auto;
     width: 75%;
+}
+@media only screen and (max-width: 600px){
+nav{
+    display: none;
+}
+html, body{
+overflow-y: visible;
+}
+section{
+    height: auto;
+}
 }
