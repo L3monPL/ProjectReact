@@ -39,13 +39,13 @@ function About() {
             <article className="about_card">
               <GoChecklist className='about_icon'/>
               <h5>Wykształcenie</h5>
-              <small>Inżynier</small>
+              <small>Średnie</small>
             </article>
           </div>
-          <p>Jestem studentem 3 roku informatyki na specjalizacji programowanie. 
-            Projekty które wdrażam są wysokiej jakości. Duża uwagę przywiązuje do szczegółów projektu 
-            oraz jakości kodu który piszę. Biorę pod uwagę standardy W3C, optymalizację, 
-            konwencje oraz semantykę kodu. dsadnsadsandisaubdsf fdsb dsf fsdgdgdfgdf gdfgdfgdf fgdfgdfgdf fdgdfg</p>
+          <p>Jestem studentem 3 roku informatyki, specjalizacja - programowanie. 
+          Docelowo chciałbym się rozwijać w kierunku full-stacka ale na ten moment posiadam umiejętności fornt-endowe.
+          Z przyjemnością sprawdzam się w nowych dziedzinach i podejmuje się nowych wyzwań. 
+          Obecnie poszukuję możliwości wykorzystania zdobytej wiedzy w praktyce i ciągłego jej poszerzania.</p>
         </div>
       </div>
     </section>

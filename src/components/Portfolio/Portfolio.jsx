@@ -1,21 +1,30 @@
 import React from 'react'
 import './portfolio.css'
+import Site_1 from '../../assets/site_1.png'
+import Site_2 from '../../assets/site_2.png'
 
 
 const data = [
   {
     id: 1,
-    image: 'https://img.freepik.com/darmowe-wektory/recznie-rysowane-tworcow-stron-internetowych_23-2148819604.jpg?w=2000',
-    title: 'Strona pierwsza',
-    github: 'https://websiters.pl/',
-    demo: 'https://websiters.pl/'
+    image: Site_1,
+    title: 'Strona apartamentów',
+    github: 'https://github.com/L3monPL/Zlecenie-testowe-dla-firmy',
+    demo: 'https://l3monpl.github.io/Zlecenie-testowe-dla-firmy/'
   },
   {
     id: 2,
-    image: 'https://media.kasperskydaily.com/wp-content/uploads/sites/95/2021/02/02203039/deep-web-dark-web-darknet-surface-web-difference-featured.jpg',
-    title: 'Strona druga',
-    github: 'www.google.pl',
-    demo: 'www.websiters.pl'
+    image: Site_2,
+    title: 'Portfolio React',
+    github: 'https://github.com/L3monPL/ProjectReact',
+    demo: 'https://l3monpl.github.io/ProjectReact/'
+  },
+  {
+    id: 3,
+    image: 'https://br.atsit.in/pl/wp-content/uploads/2021/08/przestrzenie-kodowe-github-sa-teraz-dostepne-dla-planow-team-i-enterprise-cloud.jpg',
+    title: 'Repozytorium Git',
+    github: 'https://github.com/L3monPL',
+    demo: 'https://github.com/L3monPL'
   },
 ];
 

@@ -52,6 +52,10 @@
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
 }
+.contentCol p{
+    color: #000;
+    font-weight: 500;
+}
 .about_card{
     background: #3C4880;
     border: 1px solid transparent;

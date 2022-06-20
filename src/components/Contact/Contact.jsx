@@ -43,7 +43,10 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Imię i nazwisko' required/>
           <input type="email" name='email' placeholder='Email' required/>
           <textarea type="message" rows="7" placeholder='Wiadomość' required/>
-          <button type='submit' className='btn btn-2'>Wyślij wiadomość</button>
+          <div>
+          <button type='submit' className='btn btn-2 contact_button_send'>Wyślij wiadomość</button>
+          </div>
+          
         </form>
       </div>
     </section>
