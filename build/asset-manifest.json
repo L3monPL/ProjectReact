@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ProjectReact/static/css/main.18a082dd.chunk.css",
+    "main.js": "/ProjectReact/static/js/main.045b4f34.chunk.js",
+    "main.js.map": "/ProjectReact/static/js/main.045b4f34.chunk.js.map",
+    "runtime-main.js": "/ProjectReact/static/js/runtime-main.859de3da.js",
+    "runtime-main.js.map": "/ProjectReact/static/js/runtime-main.859de3da.js.map",
+    "static/js/2.9bf6e47d.chunk.js": "/ProjectReact/static/js/2.9bf6e47d.chunk.js",
+    "static/js/2.9bf6e47d.chunk.js.map": "/ProjectReact/static/js/2.9bf6e47d.chunk.js.map",
+    "index.html": "/ProjectReact/index.html",
+    "precache-manifest.dbe20262e987a1b0658e59e1ef12386b.js": "/ProjectReact/precache-manifest.dbe20262e987a1b0658e59e1ef12386b.js",
+    "service-worker.js": "/ProjectReact/service-worker.js",
+    "static/css/main.18a082dd.chunk.css.map": "/ProjectReact/static/css/main.18a082dd.chunk.css.map",
+    "static/js/2.9bf6e47d.chunk.js.LICENSE.txt": "/ProjectReact/static/js/2.9bf6e47d.chunk.js.LICENSE.txt",
+    "static/media/CV.pdf": "/ProjectReact/static/media/CV.26ead125.pdf",
+    "static/media/imageProf.jpg": "/ProjectReact/static/media/imageProf.80393900.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.859de3da.js",
+    "static/js/2.9bf6e47d.chunk.js",
+    "static/css/main.18a082dd.chunk.css",
+    "static/js/main.045b4f34.chunk.js"
+  ]
+}
