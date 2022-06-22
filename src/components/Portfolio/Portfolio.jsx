@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import Site_1 from '../../assets/site_1.png'
 import Site_2 from '../../assets/site_2.png'
+import Site_3 from '../../assets/site_3.png'
 
 
 const data = [
@@ -14,17 +15,17 @@ const data = [
   },
   {
     id: 2,
+    image: Site_3,
+    title: 'Siłownia Strongman',
+    github: 'https://github.com/L3monPL/sitereact',
+    demo: 'https://l3monpl.github.io/sitereact/'
+  },
+  {
+    id: 3,
     image: Site_2,
     title: 'Portfolio React',
     github: 'https://github.com/L3monPL/ProjectReact',
     demo: 'https://l3monpl.github.io/ProjectReact/'
-  },
-  {
-    id: 3,
-    image: 'https://br.atsit.in/pl/wp-content/uploads/2021/08/przestrzenie-kodowe-github-sa-teraz-dostepne-dla-planow-team-i-enterprise-cloud.jpg',
-    title: 'Repozytorium Git',
-    github: 'https://github.com/L3monPL',
-    demo: 'https://github.com/L3monPL'
   },
 ];
 
